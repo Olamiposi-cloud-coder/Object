@@ -1,0 +1,12 @@
+let myName = 'Olayinka';
+const yourName = 'Cloud';
+let gender = prompt('male or female?');
+let course = prompt('what is your course?');
+const age = prompt('How old are you');
+let heading = document.querySelector('h1');
+let paragraph = document.querySelector('p');
+heading.textContent = `Hello ${yourName}`;
+paragraph.textContent = `My name is ${myName} , i am a ${gender} and i study ${course} and my age is ${age} `;
+paragraph.style.fontWeight = 'bold';
+paragraph.style.fontSize = '40px';
+paragraph.style.color = 'blue';
